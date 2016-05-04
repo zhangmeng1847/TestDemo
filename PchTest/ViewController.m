@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.frame = CGRectMake(0, 0, 20, kWIDTH);
     self.view.backgroundColor = [UIColor redColor];
+    NSLog(@"打印测试");
 }
 
 - (void)didReceiveMemoryWarning {
