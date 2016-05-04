@@ -20,6 +20,7 @@
     self.view.frame = CGRectMake(0, 0, 20, kWIDTH);
     self.view.backgroundColor = [UIColor redColor];
     NSLog(@"打印测试");
+    NSLog(@"这是一个远程服务端的修改");
 }
 
 - (void)didReceiveMemoryWarning {
